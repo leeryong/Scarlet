@@ -2,6 +2,8 @@
 
 # 🎩 Scarlet
 
+### A multi-agent knowledge-exploration & reasoning system
+
 <p>
   <img alt="Python" src="https://img.shields.io/badge/python-3.12+-3670A0?logo=python&logoColor=ffdd54">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white">
@@ -10,33 +12,44 @@
 
 🇰🇷 [한국어](README.md)
 
+<img src="scarlet_concept.png" alt="Scarlet concept" width="880"/>
+
 </div>
 
 ---
 
 ## 🔎 Overview
 
-### **Scarlet — a multi-agent RAG system**
-
 > *"Unravelling the scarlet thread that runs through the colourless skein of life"* — Sherlock Holmes
 
-**A knowledge-exploration system that finds and unravels the scarlet thread leading to an answer out of scattered data**
+**Scarlet is a multi-agent knowledge-exploration system that autonomously explores and organizes diverse documents and data, then generates answers through evidence-grounded reasoning.**
 
-- A multi-agent design inspired by the **Holmes–Watson partnership** of *A Study in Scarlet*
-- Two agents divide the work — **Watson organizes, Holmes reasons**
-- A local RAG environment that **answers with grounded sources**, built on an institution's own documents
+Inspired by the **Holmes–Watson partnership** of *A Study in Scarlet*, two agents divide the work — **Watson organizes, Holmes reasons.**
 
 ---
 
 ## 🧩 Composition
 
-| Agent | Role |
-| --- | --- |
-| 🎩 **Holmes** | Search & reasoning. Takes a question, finds evidence in the knowledge base, and answers **with sources**. |
-| 🩺 **Watson** | Knowledge-base management. **Collects, organizes, and indexes** data to lay the foundation. |
+### 🎩 Holmes — search & reasoning
+- Understands the question and searches for the key clues
+- Generates answers by connecting evidence and reasoning over it
+- A **self-thought** capable agent
+- **Memory** — a history of continuous thought, a memory graph
+- **Autonomous tool use** (currently: RAG, web)
+
+> Searches the Watson Journal for evidence related to the question → selects clues → connects and compares concepts, context, and causality → verifies the logic through multi-step reasoning → produces a **trustworthy, evidence-grounded answer**
+
+### 🩺 Watson — data collection & knowledge-building
+- Collects and parses documents and data (text, tables, images, charts, metadata)
+- Structures extracted information into semantic units and organizes their relationships
+- Stores as Vector Index · Graph Links · Full Text · Metadata
+- Integrates diverse stores — VectorDB · relational DB · NoSQL · search engines · MCP · local files · Obsidian
+- Builds, manages, and indexes knowledge bases
+
+> **Watson Journal** — a refined knowledge base that Watson builds by linking the data it has collected, parsed, and structured to a VectorDB and the original sources. It manages documents, chunks, metadata, and processing state, serving as the foundation Holmes uses for evidence search and reasoning.
 
 ```
-data  →  🩺 Watson (organize · index)  →  knowledge base  →  🎩 Holmes (search · reason)  →  grounded answer
+data  →  🩺 Watson (collect · parse · structure)  →  📚 Watson Journal  →  🎩 Holmes (search · multi-step reasoning)  →  grounded answer
 ```
 
 ---
