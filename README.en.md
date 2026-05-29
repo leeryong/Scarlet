@@ -64,11 +64,11 @@ data  →  🩺 Watson (collect · parse · structure)  →  📚 Watson Journal
 ---
 
 ## 📞 Contact
-- Yong Lee (ryonglee@kisti.re.kr)
+- Ryong Lee (ryonglee@kisti.re.kr)
 
 ---
 
 ## 👥 Team BLUESKY
-- Yong Lee (ryonglee@kisti.re.kr)
+- Ryong Lee (ryonglee@kisti.re.kr)
 - Raeyoung Jang (raezero@kisti.re.kr)
 - Jahyeon Gu (jahyeongu@kisti.re.kr)
