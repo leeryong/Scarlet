@@ -35,7 +35,7 @@ Inspired by the **Holmes–Watson partnership** of *A Study in Scarlet*, two age
 - Generates answers by connecting evidence and reasoning over it
 - A **self-thought** capable agent
 - **Memory** — a history of continuous thought, a memory graph
-- **Autonomous tool use** (currently: RAG, web)
+- **Autonomous tool use**
 
 > Searches the Watson Journal for evidence related to the question → selects clues → connects and compares concepts, context, and causality → verifies the logic through multi-step reasoning → produces a **trustworthy, evidence-grounded answer**
 
