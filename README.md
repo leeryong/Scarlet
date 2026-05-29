@@ -76,15 +76,6 @@
 
 ---
 
-## 🖥️ 화면
-
-<div align="center">
-  <img src="scarlet_home_2.png" alt="Scarlet 대시보드" width="860"
-       style="border:1.5px solid #333; border-radius:8px;" />
-</div>
-
----
-
 ## 📞 문의
 - 이용 (ryonglee@kisti.re.kr)
 
