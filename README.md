@@ -2,6 +2,8 @@
 
 # 🎩 Scarlet
 
+**한국어** · [English](README.en.md)
+
 ### 멀티에이전트 지식 탐색 및 추론 시스템
 
 <p>
