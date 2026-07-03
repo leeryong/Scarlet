@@ -18,6 +18,15 @@
 
 ---
 
+## 🆕 Latest News
+
+> ### 🌐 Now on **TAW** — meet it as an agent!
+>
+> **Scarlet** has joined **[The Agents Web (TAW)](https://github.com/leeryong/The_Agents_Web_TAW)** as an **agent**. No install needed — with a single **TAW Browser**, meet it **anywhere on PC or mobile** (Windows · macOS · Linux · iOS · Android), via **chat or its web app**.
+>
+> ➡️ **[The Agents Web (TAW)](https://github.com/leeryong/The_Agents_Web_TAW)** · 🌌 **[KISTI · BLUESKY](https://github.com/leeryong/KISTI_BLUESKY)**
+
+
 ## 🔎 Overview
 
 > *"There's the scarlet thread of murder running through the colourless skein of life, and our duty is to unravel it"* — Sherlock Holmes
